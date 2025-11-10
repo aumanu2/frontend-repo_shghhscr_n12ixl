@@ -3,10 +3,10 @@ import { Rocket, ArrowDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-[90vh] w-full overflow-hidden">
+    <section id="home" className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/TQzTfOv9igPMLRJd/scene.splinecode"
+          scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
@@ -23,7 +23,7 @@ export default function Hero() {
           Building in the <span className="bg-gradient-to-r from-slate-200 via-cyan-300 to-indigo-300 bg-clip-text text-transparent">dark</span>
         </h1>
         <p className="mt-4 max-w-xl text-base text-slate-300 sm:text-lg">
-          A minimalist, futuristic portfolio. Spin the planet and explore my work across web, 3D, and core CS foundations.
+          A cyberpunk, immersive portfolio. Drag the 3D scene and scroll to explore projects, skills, and ways to connect.
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <a
